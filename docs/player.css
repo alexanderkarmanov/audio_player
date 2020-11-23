@@ -27,6 +27,8 @@ body {
   background-color: #20202c;
   border-radius: 10px;
   box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.5), -3px -3px 50px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  margin-top: 20px;
 }
 @media screen and (min-width: 576px) {
   .player {
@@ -86,7 +88,6 @@ body {
 .audio_player {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
 }
 @media screen and (min-width: 576px) {
   .audio_player {
@@ -100,6 +101,7 @@ body {
   border-radius: 10px;
   box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.5), -3px -3px 50px rgba(0, 0, 0, 0.5);
   border: 1px solid #323232;
+  margin: 0 auto;
 }
 @media screen and (min-width: 576px) {
   .playlist {
