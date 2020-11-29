@@ -9,7 +9,7 @@
 }
 
 body{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   width: 100%;
   height: auto;
@@ -25,11 +25,11 @@ body{
 .player{
   width: 280px;
   height: 430px;
-  background-color: #20202c;
+  background-color: rgba(121, 153, 113, 0.2);
   border-radius: 10px;
   box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.5), -3px -3px 50px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
 
   @media screen and (min-width: 576px){
   width: 350px;
@@ -47,7 +47,7 @@ body{
 }
 
 .img{
-  border-top: 3px solid #fff;
+  border-top: 3px solid #799971;
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -75,7 +75,7 @@ body{
 
 .img-Kara {
   background-image: url(img/kara-n-teen.jpg);
-  background-position: bottom;
+  // background-position: bottom;
 }
 
 .text{
@@ -150,7 +150,7 @@ body{
 .alboum-head{
   margin-bottom: 10px;
   border-bottom: 2px solid #202020;
-  color: #999924;
+  color: #799971;
   // background-color: #000;
 }
 
@@ -164,19 +164,19 @@ audio::-webkit-media-controls-time-remaining-display{
 
 
 audio::-webkit-media-controls-panel {
-  background-color: #434360;
+  background-color: rgba(121, 153, 113, 0.5);
   // height: 100px;
   // border-radius: 10px;
 }
 
 audio::-webkit-media-controls-play-button {
-  background-color: #666690;
+  background-color: #799971;
   height: 32px;
   border-radius: 30px;
 }
 
 audio::-webkit-media-controls-mute-button {
-  background-color: #666690;
+  background-color: #799971;
   height: 32px;
   border-radius: 30px;
   margin-top: 7px;
@@ -260,8 +260,6 @@ color: #799971;
 
 .navi_item{
   display: block;
-  // width: 70px;
-height: 40px;
 border: 1px solid #799971;
 border-radius: 6px;
 font-size: 12px;
@@ -277,3 +275,13 @@ padding: 10px 10px;
   }
 }
 
+.back-link{
+  color:#fff;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-decoration: none;
+
+  &:hover{
+    color: #799971;
+  }
+}
