@@ -175,7 +175,7 @@ audio {
 .home_bg {
   height: 640px;
   background-color: #000;
-  padding: 45px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -226,4 +226,13 @@ audio {
 }
 .navm {
   padding: 20px;
+}
+.news-item {
+  display: block;
+  border: 1px solid #799971;
+  background: rgba(121, 153, 113, 0.2);
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 10px;
+  color: #979797;
 }
