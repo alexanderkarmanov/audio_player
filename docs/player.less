@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 *{
   margin: 0;
@@ -219,3 +221,59 @@ audio {
 // audio::-webkit-media-controls-rewind-button
 // audio::-webkit-media-controls-return-to-realtime-button
 // audio::-webkit-media-controls-toggle-closed-captions-button
+
+
+
+// Home-page  
+.home_bg {
+  height: 640px;
+  background-color: #000;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background-image: url(img/bg_5762.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.group_head {
+font-size: 50px;
+line-height: 100%;
+color: #979797;
+}
+
+.group_text{
+font-size: 20px;
+line-height: 24px;
+color: #799971;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navi_item{
+  display: block;
+  // width: 70px;
+height: 40px;
+border: 1px solid #799971;
+border-radius: 6px;
+font-size: 12px;
+text-decoration: none;
+color: #799971;
+padding: 10px 10px;
+
+  &:hover {
+    background: rgba(121, 153, 113, 0.5);
+    // border: 1px solid #FFFFFF;
+    border-color: #FCFCFC;
+    color: #FCFCFC;
+  }
+}
+
