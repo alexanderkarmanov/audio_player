@@ -37,7 +37,7 @@ body {
   border-radius: 10px;
   box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.5), -3px -3px 50px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding-bottom: 10px;
 }
 /* @media screen and (min-width: 576px) {
@@ -97,7 +97,11 @@ body {
 .audio_player {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 300px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #799971;
+  border-radius: 10px;
+  padding: 10px;
 }
 /* @media screen and (min-width: 576px) {
   .audio_player {
