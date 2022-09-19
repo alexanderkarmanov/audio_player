@@ -160,11 +160,13 @@ button:hover{
 
 .audio_player{
   display: flex;
+  flex-direction: column;
+  width: 350px;
 }
 
 .playlist {
   background-color: red;
-  color: #fff;
+  color: rgb(245, 122, 0);
   height: 600px;
   width: 200px;
   background-color: #000;
@@ -182,5 +184,5 @@ button:hover{
 }
 
 .current-song{
-  color: #fff;
+  color: rgb(255, 179, 2);
 }
