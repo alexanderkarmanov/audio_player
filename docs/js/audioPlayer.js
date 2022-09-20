@@ -28,50 +28,50 @@
                 const totalAlbumElement = document.getElementById('total-album');
                 totalAlbumElement.innerText = album;
 
-                // if (album=='Kara-n-teen'){
-                //     console.log('да')
-                //     $("#AlbumIcon").removeClass("img-Ne");
-                //     $("#AlbumIcon").addClass("img-Kara");
+                if (album=='Kara-n-teen'){
+                    console.log('да')
+                    $("#AlbumIcon").removeClass("img-Ne");
+                    $("#AlbumIcon").addClass("img-Kara");
 
-                // } else {
-                //     console.log('нет')
-                //     $("#AlbumIcon").removeClass("img-Kara");
-                //     $("#AlbumIcon").addClass("img-Ne");
-                // }
+                } else {
+                    console.log('нет')
+                    $("#AlbumIcon").removeClass("img-Kara");
+                    $("#AlbumIcon").addClass("img-Ne");
+                }
                 });
             
-            // $("#audioPlayer")[0].addEventListener("ended", function(){
-            //    currentSong++;
-            //     if(currentSong == $("#playlist li a").length)
-            //         currentSong = 0;
-            //     $("#playlist li").removeClass("current-song");
-            //     $("#playlist li:eq("+currentSong+")").addClass("current-song");
-            //     $("#audioPlayer")[0].src = $("#playlist li a")[currentSong].href;
-            //     $("#audioPlayer")[0].play();
+            $("#audioPlayer")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist li a").length)
+                    currentSong = 0;
+                $("#playlist li").removeClass("current-song");
+                $("#playlist li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer")[0].src = $("#playlist li a")[currentSong].href;
+                $("#audioPlayer")[0].play();
 
-            //     const SongName = document.querySelector('li.current-song>a.songItems');
-            //     console.log(SongName);
-            //     let song = SongName.innerText;
+                const SongName = document.querySelector('li.current-song>a.songItems');
+                console.log(SongName);
+                let song = SongName.innerText;
 
-            //     const AlbumName = document.querySelector('li.current-song>p.album');
-            //     let album = AlbumName.innerText;
-            //     console.log(album);
+                const AlbumName = document.querySelector('li.current-song>p.album');
+                let album = AlbumName.innerText;
+                console.log(album);
 
-            //     const tatalPriceElement = document.getElementById('total-price');
-            //      tatalPriceElement.innerText = song;
+                const tatalPriceElement = document.getElementById('total-price');
+                 tatalPriceElement.innerText = song;
 
-            //     const totalAlbumElement = document.getElementById('total-album');
-            //     totalAlbumElement.innerText = album;
+                const totalAlbumElement = document.getElementById('total-album');
+                totalAlbumElement.innerText = album;
 
-            //     if (album=='Kara-n-teen'){
-            //         console.log('да')
-            //         $("#AlbumIcon").removeClass("img-Ne");
-            //         $("#AlbumIcon").addClass("img-Kara");
+                if (album=='Kara-n-teen'){
+                    console.log('да')
+                    $("#AlbumIcon").removeClass("img-Ne");
+                    $("#AlbumIcon").addClass("img-Kara");
 
-            //     } else {
-            //         console.log('нет')
-            //         $("#AlbumIcon").removeClass("img-Kara");
-            //         $("#AlbumIcon").addClass("img-Ne");
-            //     }
-            // });
+                } else {
+                    console.log('нет')
+                    $("#AlbumIcon").removeClass("img-Kara");
+                    $("#AlbumIcon").addClass("img-Ne");
+                }
+            });
         }
