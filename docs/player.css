@@ -31,54 +31,34 @@ body {
 }
 .player {
   width: 280px;
-  /* height: 430px; */
   background-color: rgba(121, 153, 113, 0.2);
   border: 1px solid #799971;
   border-radius: 10px;
   box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.5), -3px -3px 50px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
-  /* margin-top: 10px; */
   padding-bottom: 10px;
 }
-/* @media screen and (min-width: 576px) {
-  .player {
-    width: 350px;
-    height: 520px;
-    padding-top: 20px;
-    margin: 10px 0 0 0;
-  }
-} */
+
 .container {
   width: 90%;
   margin: 0 auto;
 }
 .img {
-  border-top: 3px solid #799971;
-  /* border-radius: 50%; */
   width: 150px;
   height: 230px;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px auto;
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.4s ease-in-out;
 }
-/* @media screen and (min-width: 576px) {
-  .img {
-    width: 250px;
-    height: 250px;
-  }
-} */
+
 .img:hover {
-  box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.5), -3px -3px 50px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.5), -3px -3px 50px rgba(0, 0, 0, 0.5); */
 }
 .img-Ne {
   background-image: url(img/cover_401.jpg);
 }
-.img-Kara {
-  background-image: url(img/kara-n-teen.jpg);
-}
+
 .text {
   text-align: center;
   margin: 10px 0;
@@ -86,11 +66,7 @@ body {
 .text h1 {
   font-size: 2em;
 }
-/* @media screen and (min-width: 576px) {
-  .text h1 {
-    font-size: 2.5em;
-  }
-} */
+
 .text h4 {
   font-size: 1.4em;
 }
@@ -103,12 +79,7 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
-/* @media screen and (min-width: 576px) {
-  .audio_player {
-    flex-direction: column;
-    padding-left: 10px;
-  }
-} */
+
 .playlist {
   color: rgb(144, 0, 0);
   width: 280px;
@@ -118,13 +89,7 @@ body {
   border: 1px solid #799971;
   margin: 0 auto;
 }
-/* @media screen and (min-width: 576px) {
-  .playlist {
-    margin: 10px 0px 0 0px;
-    width: 200px;
-    height: 520px;
-  }
-} */
+
 .songItems {
   text-align: left;
   color: #686868;
@@ -134,8 +99,8 @@ body {
 .songItems:hover {
   color: #999924;
 }
-.current-song {
-  color: rgb(255, 191, 0);
+.current-song a{
+  color: rgb(184, 109, 5);
 }
 .audio-box {
   display: none;
@@ -163,86 +128,12 @@ audio::-webkit-media-controls-mute-button {
   background-color: #799971;
   height: 32px;
   border-radius: 30px;
-  margin-top: 7px;
 }
 audio {
   width: 250px;
   margin-top: 10px;
 }
-/* @media screen and (min-width: 576px) {
-  audio {
-    width: 310px;
-    margin-top: 20px;
-  }
-} */
+
 .album {
   display: none;
 }
-.home_bg {
-  height: 640px;
-  background-color: #000;
-  padding: 45px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  background-image: url(img/bg_5762.jpg);
-  background-position: center 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.group_head {
-  font-size: 50px;
-  line-height: 100%;
-  color: #979797;
-}
-.group_text {
-  font-size: 20px;
-  line-height: 24px;
-  color: #799971;
-}
-.navi {
-  display: flex;
-  justify-content: space-between;
-}
-.navi_item {
-  display: block;
-  border: 1px solid #799971;
-  border-radius: 6px;
-  font-size: 12px;
-  text-decoration: none;
-  color: #799971;
-  padding: 10px 10px;
-}
-.navi_item:hover {
-  background: rgba(121, 153, 113, 0.5);
-  border-color: #FCFCFC;
-  color: #FCFCFC;
-}
-.back-link {
-  color: #fff;
-  margin: 0 auto;
-  padding-top: 10px;
-  text-decoration: none;
-}
-.back-link:hover {
-  color: #799971;
-}
-.navm {
-  padding: 20px;
-}
-<<<<<<< HEAD
-.news-item {
-  display: block;
-  border: 1px solid #799971;
-  background: rgba(121, 153, 113, 0.2);
-  border-radius: 6px;
-  padding: 10px;
-  margin-top: 10px;
-  color: #979797;
-}
-
-=======
->>>>>>> parent of c79dd6d (add news)
